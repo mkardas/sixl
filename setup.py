@@ -11,10 +11,10 @@ setup(
     url = "https://github.com/mkardas/sixl",
     packages=['sixl'],
     long_description=Path('README.md').read_text(),
+    long_description_content_type='text/markdown',
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Topic :: Software Development :: Libraries",
-        "Topic :: System :: Softwaredd Distribution",
         "License :: OSI Approved :: MIT License",
     ],
 )
